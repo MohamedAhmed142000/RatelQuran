@@ -752,8 +752,8 @@
   },
   {
     "number": 76,
-    "englishName": "الانسان",
-    "name": "Al-Insan",
+    "englishName": "Al-Insan",
+    "name": "الانسان",
     "revelationTypeEn": "medinan",
     "revelationTypeAr": "مدنية",
     "numberOfAyahs": 31,
@@ -762,8 +762,8 @@
   },
   {
     "number": 77,
-    "englishName": "المرسلات",
-    "name": "Al-Mursalat",
+    "englishName": "Al-Mursalat",
+    "name": "المرسلات",
     "revelationTypeEn": "meccan",
     "revelationTypeAr": "مكية",
     "numberOfAyahs": 50,
@@ -772,8 +772,8 @@
   },
   {
     "number": 78,
-    "englishName": "النبأ",
-    "name": "An-Naba",
+    "englishName": "An-Naba",
+    "name": "النبأ",
     "revelationTypeEn": "meccan",
     "revelationTypeAr": "مكية",
     "numberOfAyahs": 40,

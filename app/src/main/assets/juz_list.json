@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "startSurahName": "الفاتحة",
+    "startAyah": 1,
+    "endSurahName": "البقرة",
+    "endAyah": 141
+  },
+  {
+    "number": 2,
+    "startSurahName": "البقرة",
+    "startAyah": 142,
+    "endSurahName": "البقرة",
+    "endAyah": 252
+  },
+  {
+    "number": 3,
+    "startSurahName": "البقرة",
+    "startAyah": 253,
+    "endSurahName": "آل عمران",
+    "endAyah": 91
+  },
+  {
+    "number": 4,
+    "startSurahName": "آل عمران",
+    "startAyah": 92,
+    "endSurahName": "النساء",
+    "endAyah": 23
+  },
+  {
+    "number": 5,
+    "startSurahName": "النساء",
+    "startAyah": 24,
+    "endSurahName": "النساء",
+    "endAyah": 147
+  },
+  {
+    "number": 6,
+    "startSurahName": "النساء",
+    "startAyah": 148,
+    "endSurahName": "المائدة",
+    "endAyah": 81
+  },
+  {
+    "number": 7,
+    "startSurahName": "المائدة",
+    "startAyah": 82,
+    "endSurahName": "الأنعام",
+    "endAyah": 110
+  },
+  {
+    "number": 8,
+    "startSurahName": "الأنعام",
+    "startAyah": 111,
+    "endSurahName": "الأعراف",
+    "endAyah": 87
+  },
+  {
+    "number": 9,
+    "startSurahName": "الأعراف",
+    "startAyah": 88,
+    "endSurahName": "الأنفال",
+    "endAyah": 40
+  },
+  {
+    "number": 10,
+    "startSurahName": "الأنفال",
+    "startAyah": 41,
+    "endSurahName": "التوبة",
+    "endAyah": 92
+  },
+  {
+    "number": 11,
+    "startSurahName": "التوبة",
+    "startAyah": 93,
+    "endSurahName": "هود",
+    "endAyah": 5
+  },
+  {
+    "number": 12,
+    "startSurahName": "هود",
+    "startAyah": 6,
+    "endSurahName": "يوسف",
+    "endAyah": 52
+  },
+  {
+    "number": 13,
+    "startSurahName": "يوسف",
+    "startAyah": 53,
+    "endSurahName": "إبراهيم",
+    "endAyah": 52
+  },
+  {
+    "number": 14,
+    "startSurahName": "الحجر",
+    "startAyah": 1,
+    "endSurahName": "النحل",
+    "endAyah": 128
+  },
+  {
+    "number": 15,
+    "startSurahName": "الإسراء",
+    "startAyah": 1,
+    "endSurahName": "الكهف",
+    "endAyah": 74
+  },
+  {
+    "number": 16,
+    "startSurahName": "الكهف",
+    "startAyah": 75,
+    "endSurahName": "طه",
+    "endAyah": 135
+  },
+  {
+    "number": 17,
+    "startSurahName": "الأنبياء",
+    "startAyah": 1,
+    "endSurahName": "الحج",
+    "endAyah": 78
+  },
+  {
+    "number": 18,
+    "startSurahName": "المؤمنون",
+    "startAyah": 1,
+    "endSurahName": "الفرقان",
+    "endAyah": 20
+  },
+  {
+    "number": 19,
+    "startSurahName": "الفرقان",
+    "startAyah": 21,
+    "endSurahName": "النمل",
+    "endAyah": 55
+  },
+  {
+    "number": 20,
+    "startSurahName": "النمل",
+    "startAyah": 56,
+    "endSurahName": "العنكبوت",
+    "endAyah": 45
+  },
+  {
+    "number": 21,
+    "startSurahName": "العنكبوت",
+    "startAyah": 46,
+    "endSurahName": "الأحزاب",
+    "endAyah": 30
+  },
+  {
+    "number": 22,
+    "startSurahName": "الأحزاب",
+    "startAyah": 31,
+    "endSurahName": "يس",
+    "endAyah": 27
+  },
+  {
+    "number": 23,
+    "startSurahName": "يس",
+    "startAyah": 28,
+    "endSurahName": "الزمر",
+    "endAyah": 31
+  },
+  {
+    "number": 24,
+    "startSurahName": "الزمر",
+    "startAyah": 32,
+    "endSurahName": "فصلت",
+    "endAyah": 46
+  },
+  {
+    "number": 25,
+    "startSurahName": "فصلت",
+    "startAyah": 47,
+    "endSurahName": "الأحقاف",
+    "endAyah": 20
+  },
+  {
+    "number": 26,
+    "startSurahName": "الأحقاف",
+    "startAyah": 21,
+    "endSurahName": "الذاريات",
+    "endAyah": 30
+  },
+  {
+    "number": 27,
+    "startSurahName": "الذاريات",
+    "startAyah": 31,
+    "endSurahName": "الحديد",
+    "endAyah": 29
+  },
+  {
+    "number": 28,
+    "startSurahName": "المجادلة",
+    "startAyah": 1,
+    "endSurahName": "التحريم",
+    "endAyah": 12
+  },
+  {
+    "number": 29,
+    "startSurahName": "الملك",
+    "startAyah": 1,
+    "endSurahName": "المرسلات",
+    "endAyah": 50
+  },
+  {
+    "number": 30,
+    "startSurahName": "النبأ",
+    "startAyah": 1,
+    "endSurahName": "الناس",
+    "endAyah": 6
+  }
+]

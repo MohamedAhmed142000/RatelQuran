@@ -1,0 +1,302 @@
+[
+  {
+    "hizbNumber": 1,
+    "startQuarter": 1,
+    "endQuarter": 4
+  },
+  {
+    "hizbNumber": 2,
+    "startQuarter": 5,
+    "endQuarter": 8
+  },
+  {
+    "hizbNumber": 3,
+    "startQuarter": 9,
+    "endQuarter": 12
+  },
+  {
+    "hizbNumber": 4,
+    "startQuarter": 13,
+    "endQuarter": 16
+  },
+  {
+    "hizbNumber": 5,
+    "startQuarter": 17,
+    "endQuarter": 20
+  },
+  {
+    "hizbNumber": 6,
+    "startQuarter": 21,
+    "endQuarter": 24
+  },
+  {
+    "hizbNumber": 7,
+    "startQuarter": 25,
+    "endQuarter": 28
+  },
+  {
+    "hizbNumber": 8,
+    "startQuarter": 29,
+    "endQuarter": 32
+  },
+  {
+    "hizbNumber": 9,
+    "startQuarter": 33,
+    "endQuarter": 36
+  },
+  {
+    "hizbNumber": 10,
+    "startQuarter": 37,
+    "endQuarter": 40
+  },
+  {
+    "hizbNumber": 11,
+    "startQuarter": 41,
+    "endQuarter": 44
+  },
+  {
+    "hizbNumber": 12,
+    "startQuarter": 45,
+    "endQuarter": 48
+  },
+  {
+    "hizbNumber": 13,
+    "startQuarter": 49,
+    "endQuarter": 52
+  },
+  {
+    "hizbNumber": 14,
+    "startQuarter": 53,
+    "endQuarter": 56
+  },
+  {
+    "hizbNumber": 15,
+    "startQuarter": 57,
+    "endQuarter": 60
+  },
+  {
+    "hizbNumber": 16,
+    "startQuarter": 61,
+    "endQuarter": 64
+  },
+  {
+    "hizbNumber": 17,
+    "startQuarter": 65,
+    "endQuarter": 68
+  },
+  {
+    "hizbNumber": 18,
+    "startQuarter": 69,
+    "endQuarter": 72
+  },
+  {
+    "hizbNumber": 19,
+    "startQuarter": 73,
+    "endQuarter": 76
+  },
+  {
+    "hizbNumber": 20,
+    "startQuarter": 77,
+    "endQuarter": 80
+  },
+  {
+    "hizbNumber": 21,
+    "startQuarter": 81,
+    "endQuarter": 84
+  },
+  {
+    "hizbNumber": 22,
+    "startQuarter": 85,
+    "endQuarter": 88
+  },
+  {
+    "hizbNumber": 23,
+    "startQuarter": 89,
+    "endQuarter": 92
+  },
+  {
+    "hizbNumber": 24,
+    "startQuarter": 93,
+    "endQuarter": 96
+  },
+  {
+    "hizbNumber": 25,
+    "startQuarter": 97,
+    "endQuarter": 100
+  },
+  {
+    "hizbNumber": 26,
+    "startQuarter": 101,
+    "endQuarter": 104
+  },
+  {
+    "hizbNumber": 27,
+    "startQuarter": 105,
+    "endQuarter": 108
+  },
+  {
+    "hizbNumber": 28,
+    "startQuarter": 109,
+    "endQuarter": 112
+  },
+  {
+    "hizbNumber": 29,
+    "startQuarter": 113,
+    "endQuarter": 116
+  },
+  {
+    "hizbNumber": 30,
+    "startQuarter": 117,
+    "endQuarter": 120
+  },
+  {
+    "hizbNumber": 31,
+    "startQuarter": 121,
+    "endQuarter": 124
+  },
+  {
+    "hizbNumber": 32,
+    "startQuarter": 125,
+    "endQuarter": 128
+  },
+  {
+    "hizbNumber": 33,
+    "startQuarter": 129,
+    "endQuarter": 132
+  },
+  {
+    "hizbNumber": 34,
+    "startQuarter": 133,
+    "endQuarter": 136
+  },
+  {
+    "hizbNumber": 35,
+    "startQuarter": 137,
+    "endQuarter": 140
+  },
+  {
+    "hizbNumber": 36,
+    "startQuarter": 141,
+    "endQuarter": 144
+  },
+  {
+    "hizbNumber": 37,
+    "startQuarter": 145,
+    "endQuarter": 148
+  },
+  {
+    "hizbNumber": 38,
+    "startQuarter": 149,
+    "endQuarter": 152
+  },
+  {
+    "hizbNumber": 39,
+    "startQuarter": 153,
+    "endQuarter": 156
+  },
+  {
+    "hizbNumber": 40,
+    "startQuarter": 157,
+    "endQuarter": 160
+  },
+  {
+    "hizbNumber": 41,
+    "startQuarter": 161,
+    "endQuarter": 164
+  },
+  {
+    "hizbNumber": 42,
+    "startQuarter": 165,
+    "endQuarter": 168
+  },
+  {
+    "hizbNumber": 43,
+    "startQuarter": 169,
+    "endQuarter": 172
+  },
+  {
+    "hizbNumber": 44,
+    "startQuarter": 173,
+    "endQuarter": 176
+  },
+  {
+    "hizbNumber": 45,
+    "startQuarter": 177,
+    "endQuarter": 180
+  },
+  {
+    "hizbNumber": 46,
+    "startQuarter": 181,
+    "endQuarter": 184
+  },
+  {
+    "hizbNumber": 47,
+    "startQuarter": 185,
+    "endQuarter": 188
+  },
+  {
+    "hizbNumber": 48,
+    "startQuarter": 189,
+    "endQuarter": 192
+  },
+  {
+    "hizbNumber": 49,
+    "startQuarter": 193,
+    "endQuarter": 196
+  },
+  {
+    "hizbNumber": 50,
+    "startQuarter": 197,
+    "endQuarter": 200
+  },
+  {
+    "hizbNumber": 51,
+    "startQuarter": 201,
+    "endQuarter": 204
+  },
+  {
+    "hizbNumber": 52,
+    "startQuarter": 205,
+    "endQuarter": 208
+  },
+  {
+    "hizbNumber": 53,
+    "startQuarter": 209,
+    "endQuarter": 212
+  },
+  {
+    "hizbNumber": 54,
+    "startQuarter": 213,
+    "endQuarter": 216
+  },
+  {
+    "hizbNumber": 55,
+    "startQuarter": 217,
+    "endQuarter": 220
+  },
+  {
+    "hizbNumber": 56,
+    "startQuarter": 221,
+    "endQuarter": 224
+  },
+  {
+    "hizbNumber": 57,
+    "startQuarter": 225,
+    "endQuarter": 228
+  },
+  {
+    "hizbNumber": 58,
+    "startQuarter": 229,
+    "endQuarter": 232
+  },
+  {
+    "hizbNumber": 59,
+    "startQuarter": 233,
+    "endQuarter": 236
+  },
+  {
+    "hizbNumber": 60,
+    "startQuarter": 237,
+    "endQuarter": 240
+  }
+]
