@@ -1,6 +1,6 @@
 package com.example.ratelquran.presentation.surahdetails
 
-import androidx.compose.foundation.gestures.detectHorizontalDragGestures
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,14 +18,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavController
 import com.example.ratelquran.R
 
 
@@ -35,52 +33,59 @@ fun SurahDetailsScreen(
     surahNumber: Int,
     viewModel: SurahDetailsViewModel = hiltViewModel(),
 
-) {
+    ) {
     val verses by viewModel.ayahs.collectAsState()
     val font = FontFamily(Font(R.font.amiri_slanted))
     LaunchedEffect(surahNumber) {
         viewModel.loadSurahVerses(surahNumber)
     }
     LazyColumn(
-            modifier = Modifier
-                .padding(16.dp)
-                .fillMaxSize(),
-            verticalArrangement = Arrangement.spacedBy(5.dp),
-        ) {
-            item {
-                Card(
-                    elevation = CardDefaults.cardElevation(4.dp),
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.background),
-                    modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .padding(16.dp)
+            .fillMaxSize(),
+        verticalArrangement = Arrangement.spacedBy(5.dp),
+    ) {
+        item {
+            Card(
+                elevation = CardDefaults.cardElevation(4.dp),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.background),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Column(
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Column(
+                    Box(
                         modifier = Modifier
-                            .padding(16.dp)
-                            .fillMaxWidth(),
-                        horizontalAlignment = Alignment.CenterHorizontally
+                            .fillMaxWidth()
+                            .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
+                            .padding(8.dp)
                     ) {
                         Text(
-                            text = "سورة $surahName",
-                            fontSize = 32.sp,
-                            fontFamily = font,
-                            modifier = Modifier.fillMaxWidth(),
-                            textAlign = TextAlign.Center
+                            text = "﴿ ســـورة $surahName ﴾",
+                            fontSize = 30.sp,
+                            fontFamily = FontFamily(Font(R.font.me_quran)),
+                            textAlign = TextAlign.Center,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.fillMaxWidth()
                         )
                     }
                 }
             }
+        }
 
-            item {
-                AyahItem(
-                    verses = verses,
-                    fontFamily = font,
-                    modifier = Modifier.padding(16.dp),
-                    surahNumber = surahNumber
-                )
-            }
+        item {
+            AyahItem(
+                verses = verses,
+                fontFamily = font,
+                modifier = Modifier.padding(16.dp),
+                surahNumber = surahNumber
+            )
         }
     }
-
+}
 
 fun getSurahName(number: Int): String {
     val allSurahs = listOf(

@@ -3,9 +3,12 @@ package com.example.ratelquran.di.AppModule
 import android.content.Context
 import com.example.ratelquran.data.local.QuranLocalDataSource
 import com.example.ratelquran.data.local.QuranVersesLocalDataSource
+import com.example.ratelquran.data.local.loadJuzList
 import com.example.ratelquran.data.repository.QuranRepositoryImpl
 import com.example.ratelquran.domain.repository.QuranRepository
 import com.example.ratelquran.domain.usecase.GetAllSurahsUseCase
+import com.example.ratelquran.domain.usecase.GetJuzListUseCase
+import com.example.ratelquran.domain.usecase.GetVersesByJuzUseCase
 import com.example.ratelquran.domain.usecase.GetVersesBySurahUseCase
 import dagger.Module
 import dagger.Provides
@@ -30,9 +33,10 @@ object AppModule {
     @Singleton
     fun provideQuranRepository(
         localDataSource: QuranLocalDataSource,
-        verseLocal:QuranVersesLocalDataSource
+        verseLocal: QuranVersesLocalDataSource,
+        juzList: loadJuzList
     ): QuranRepository {
-        return QuranRepositoryImpl(localDataSource, verseLocal )
+        return QuranRepositoryImpl(localDataSource, verseLocal, juzList )
     }
 
     @Provides
@@ -57,6 +61,29 @@ object AppModule {
         repository: QuranRepository
     ): GetVersesBySurahUseCase {
         return GetVersesBySurahUseCase(repository)
+    }
+
+    @Provides
+    @Singleton
+    fun provideGetJuzListUseCase(
+        repository: QuranRepository
+    ): GetJuzListUseCase {
+        return GetJuzListUseCase(repository)
+    }
+
+    @Provides
+    @Singleton
+    fun provideGetVersesByJuzUseCase(
+        repository: QuranRepository
+    ): GetVersesByJuzUseCase {
+        return GetVersesByJuzUseCase(repository)
+    }
+    @Provides
+    @Singleton
+    fun provideLoadJuzList(
+        @ApplicationContext context: Context
+    ): loadJuzList {
+        return loadJuzList(context)
     }
 
 }

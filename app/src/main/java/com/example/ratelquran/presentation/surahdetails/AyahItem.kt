@@ -1,6 +1,5 @@
 package com.example.ratelquran.presentation.surahdetails
 
-
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -24,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.ratelquran.R
 import com.example.ratelquran.domain.model.Ayah
+import com.example.ratelquran.presentation.nav.verseNumberUnicode
 
 @Composable
 fun AyahItem(
@@ -78,25 +78,4 @@ fun AyahItem(
             }
         }
     }
-}
-
-fun verseNumberUnicode(number: Int): String {
-    val start = 0x06DD
-    val digits = number.toString().map {
-        when (it) {
-            '0' -> '٠'
-            '1' -> '١'
-            '2' -> '٢'
-            '3' -> '٣'
-            '4' -> '٤'
-            '5' -> '٥'
-            '6' -> '٦'
-            '7' -> '٧'
-            '8' -> '٨'
-            '9' -> '٩'
-            else -> it
-        }
-    }.joinToString("")
-
-    return "﴿$digits﴾"
 }

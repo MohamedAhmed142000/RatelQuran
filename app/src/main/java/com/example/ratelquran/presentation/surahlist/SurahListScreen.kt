@@ -27,13 +27,6 @@ fun SurahListScreen(
             .fillMaxSize()
 
     ) {
-//            Text(
-//                text = "قائمة السور",
-//                style = MaterialTheme.typography.titleMedium,
-//                modifier = Modifier
-//                    .fillMaxWidth()
-//                    .padding(16.dp)
-//            )
 
         LazyColumn(
             modifier = Modifier.fillMaxSize(),

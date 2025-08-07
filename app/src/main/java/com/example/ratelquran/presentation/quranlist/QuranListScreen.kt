@@ -44,7 +44,7 @@ fun QuranListScreen(
         // ✅ Content
         when (selectedTab) {
             0 -> SurahListScreen(onSurahClick = onSurahClick)
-            1 -> JuzListScreen(context = context, navController = navController)
+            1 -> JuzListScreen( navController = navController)
         }
     }
 }

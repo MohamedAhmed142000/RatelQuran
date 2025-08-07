@@ -5,7 +5,8 @@ import com.example.ratelquran.presentation.surahdetails.getSurahName
 data class Ayah(
     val chapter: Int,
     val verse: Int,
-    val text: String
+    val text: String,
+    val juzNumber: Int
 )
 fun Ayah.toVerse(): Verse = Verse(
     surahName = getSurahName(this.chapter),
