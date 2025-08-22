@@ -1,4 +1,4 @@
-package com.example.ratelquran.presentation.nav
+package com.example.ratelquran.presentation.surahdetails
 
 fun verseNumberUnicode(number: Int): String {
     val start = 0x06DD

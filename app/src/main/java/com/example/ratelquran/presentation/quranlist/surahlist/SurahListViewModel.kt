@@ -1,4 +1,4 @@
-package com.example.ratelquran.presentation.surahlist
+package com.example.ratelquran.presentation.quranlist.surahlist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

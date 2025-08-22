@@ -1,15 +1,22 @@
 package com.example.ratelquran.di.AppModule
 
 import android.content.Context
+import com.example.ratelquran.data.local.LastReadSharedPrefs
 import com.example.ratelquran.data.local.QuranLocalDataSource
 import com.example.ratelquran.data.local.QuranVersesLocalDataSource
 import com.example.ratelquran.data.local.loadJuzList
+import com.example.ratelquran.data.repository.LastReadRepositoryImpl
 import com.example.ratelquran.data.repository.QuranRepositoryImpl
+import com.example.ratelquran.domain.repository.LastReadRepository
 import com.example.ratelquran.domain.repository.QuranRepository
+import com.example.ratelquran.domain.usecase.ClearLastReadUseCase
 import com.example.ratelquran.domain.usecase.GetAllSurahsUseCase
 import com.example.ratelquran.domain.usecase.GetJuzListUseCase
+import com.example.ratelquran.domain.usecase.GetLastReadUseCase
+import com.example.ratelquran.domain.usecase.GetTafsirUseCase
 import com.example.ratelquran.domain.usecase.GetVersesByJuzUseCase
 import com.example.ratelquran.domain.usecase.GetVersesBySurahUseCase
+import com.example.ratelquran.domain.usecase.SaveLastReadUseCase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -85,5 +92,38 @@ object AppModule {
     ): loadJuzList {
         return loadJuzList(context)
     }
+    @Provides
+    @Singleton
+    fun provideGetTafsirUseCase(repository: QuranRepository): GetTafsirUseCase {
+        return GetTafsirUseCase(repository)
+    }
 
+    @Provides
+    @Singleton
+    fun provideLastReadSharedPrefs(@ApplicationContext context: Context): LastReadSharedPrefs {
+        return LastReadSharedPrefs(context)
+    }
+
+    @Provides
+    @Singleton
+    fun provideLastReadRepository(
+        local: LastReadSharedPrefs
+    ): LastReadRepository {
+        return LastReadRepositoryImpl(local)
+    }
+
+    @Provides
+    fun provideSaveLastReadUseCase(repo: LastReadRepository): SaveLastReadUseCase {
+        return SaveLastReadUseCase(repo)
+    }
+
+    @Provides
+    fun provideGetLastReadUseCase(repo: LastReadRepository): GetLastReadUseCase {
+        return GetLastReadUseCase(repo)
+    }
+
+    @Provides
+    fun provideClearLastReadUseCase(repo: LastReadRepository): ClearLastReadUseCase {
+        return ClearLastReadUseCase(repo)
+    }
 }

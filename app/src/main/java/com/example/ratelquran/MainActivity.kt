@@ -10,8 +10,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.ratelquran.data.local.QuranVersesLocalDataSource
-import com.example.ratelquran.data.local.loadJuzList
-import com.example.ratelquran.presentation.juzlist.JuzListViewModel
+import com.example.ratelquran.presentation.quranlist.juzlist.JuzListViewModel
 import com.example.ratelquran.presentation.nav.AppNavGraph
 import com.example.ratelquran.ui.theme.RatelQuranTheme
 import dagger.hilt.android.AndroidEntryPoint
